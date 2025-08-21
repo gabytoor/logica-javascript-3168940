@@ -240,29 +240,120 @@ else {
 // 10----------------------------------------------------------------------------------------
 
 
+/*
+
 let num1 = parseInt (prompt("Ingresa un número"));
 let num2 = parseInt (prompt("Ingresa un segundo número"));
 let num3 = parseInt (prompt("Ingresa un tercer número"));
 
-if (num1 !== num2 !== num3) {
-let mayor = Math.max (num1, num2, num3)
-let menor = Math.min (num1, num2, num3)
-let medio = (num1 + num2 + num3 - mayor - menor)
-
-alert ("El número mayor es = " + mayor)
-alert ("El número menor es = " + menor)
-alert ("El número medio es = " + medio);
-}
-
 
 if (num1 === num2 && num1 !== num3) {
-        alert("Los números que se repiten son: " + num1);} 
-else if (num1 === num3 && num1 !== num2) {
-        alert("Los números que se repiten son: " + num1);} 
-else if (num2 === num3 && num2 !== num1) {
-        alert("Los números que se repiten son: " + num2);} 
-else { alert("Los tres números son iguales: " + num1);}
+    alert("El número repetido es: " + num1);
+} else if (num1 === num3 && num1 !== num2) {
+    alert("El número repetido es: " + num1);
+} else if (num2 === num3 && num2 !== num1) {
+    alert("El número repetido es: " + num2);
+} 
+
+else {
+    let mayor = Math.max (num1, num2, num3);
+    let menor = Math.min (num1,  num2, num3);
+    let medio = (num1+ num2 + num3) - mayor - menor;
+
+    alert ("El número mayor es =" + mayor + "\n" +
+           "El número menor es =" + menor + "\n" +
+           "El número del medio es =" + medio )
+}
+*/
+
+
+
+// 11---------------------------------------------------------------------------------------
+
+
+/*
+let edad = parseInt(prompt ("Ingresa tu edad"));
+
+if (edad >= 18){alert("¡Pasas el primer filtro!") 
+
+        let estatura = parseInt(prompt("Ingresa tu estatura en cm"));
+           if (estatura >= 170) {alert ("¡Pasas el segundo filtro!");
+    
+               let peso = parseInt(prompt("Ingresa tu peso en kg (Solo número entero)"))
+                  if (peso > 50 && peso < 90) {alert("¡Ingresas al equipo de baloncesto!")}
+                  else {alert("Lo siento, tu peso no es apto para el equipo")}}
+        else {alert("Lo siento, tu estatura no es adecuada para el equipo");}}
+
+else {alert("Lo siento, tu edad no es apropiada para ingresar al equipo")};
+*/
+
+
+// 12----------------------------------------------------------------------------------------
+
+
+/*
+{alert ("El sueldo mínimo actual es = 1'423.500")}
+
+let salario = parseInt(prompt("Ingresa tu sueldo actual (sin número ni caracteres y sin auxilio de transporte)"))
+
+if (salario === 1423500) {
+
+    let aumento = (1423500 + (1423500 * 0.10))
+    alert ("Tu sueldo aumentará un 10%, por lo cual ganarás ahora = $" + aumento)
+}
+
+else {alert("Tu salario no cumple con las condiciones para un aumento")}
+*/
+
+
+// 13----------------------------------------------------------------------------------------
+
+
+/*
+var datos = [];
+
+datos [0] = prompt("Ingrese un nombre")
+datos [1] = prompt("Ingrese un segundo nombre")
+datos [2] = prompt("Ingrese un tercer nombre")
+
+alert ("Los nombres ingresados son: ");
+for (let i = 0; i < datos.length; i++)
+{document.write ((i+1) + "- " + datos [i ])}
+*/
+
+
+// 14----------------------------------------------------------------------------------------
+
+
+/*
+let nombres
+
+        document.write("Nombres ingresados");
+
+        while (true) {
+            nombre = prompt("Ingresa un nombre (o escribe 'salir' para dejar de ingresar):");
+
+            if (nombre === null || nombre.toLowerCase() === "salir") {
+                break;
+            }
+
+            document.write(nombre + "<br>");
+        }
+
+*/
+
+
+
+
 
     
-    
-    
+//EJERCICIO EXTRA==========================================================
+
+
+/*
+var frutas = ["pera", "manzana", "uchuva", "uva", "naranja", "fresa", "papaya", "sandia"];
+
+for (let i = 0; i < frutas.length; i++) {
+    console.log ((i + 1) + ". " + frutas [i]);
+}
+*/
