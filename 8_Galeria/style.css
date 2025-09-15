@@ -1,0 +1,11 @@
+#galeria {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#contenedor {
+    width: 2020px;
+    height: 300px;
+    display: flex;
+}
