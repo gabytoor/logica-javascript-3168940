@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<div> <img id="cajaLogo" src="Manual de marca_Helikón-07.jpg" alt="logo proyecto"></div>
+
+<nav>
+    <ul>
+      <li><a href="#arbol">Árbol de problemas</a></li>
+      <li><a href="#soluciones">Soluciones</a></li>
+      <li><a href="#objetivos">Objetivos</a></li>
+      <li><a href="#encuesta">Encuesta</a></li>
+    </ul>
+  </nav>
+
+   <section id="arbol">
+    <h2>Árbol de problemas</h2>
+
+    <p class="titulo">Primer problema</p>
+<div style="text-align: center;">
+	<img class = "imgPrin" src="arbol_principal.png" width="500px">
+</div>
+
+<div class="conteiner-img">
+<img class="problema" name="Árbol" src="arbol_principal.png" width="80px" >
+<img class="problema" name="Primer problema" src="Pr1.png" width="80px" >
+<img class="problema" name="Segundo problema" src="pr2.png" width="80px">
+<img class="problema" name="Tercera problema" src="pr3.png" width="80px">
+<img class="problema" name="Cuarto problema" src="pr4.png" width="80px">
+<img class="problema" name="Quinto problema" src="pr5.png" width="80px">
+</div>
+
+<section id="soluciones" class="contenedor">
+
+  <br>
+  <br>
+    <h2>Soluciones de problemas</h2>
+
+  <div class="caja-scroll">
+    <div class="solucion"><img src="SL1.png" alt="solucion 1"></div>
+    <div class="solucion"><img src="SL2.png" alt="solucion 2"></div>
+    <div class="solucion"><img src="SL3.png" alt="solucion 3"></div>
+    <div class="solucion"><img src="SL4.png" alt="solucion 4"></div>
+    <div class="solucion"><img src="SL5.png" alt="solucion 5"></div>
+  </div>
+
+  </section>
+
+
+
+
+  <section id="objetivos"  id="carrusel">
+  <h2>Objetivos específicos</h2>
+
+   <div class="carrusel-contenedor">
+    <div class="caja active">
+      <p>1 - Investigar los datos biográficos de Juan Esteban 
+      Aristizábal Vásquez (Juanes) para reconocer aspectos 
+      importantes de su vida artística y personal, 
+      enfatizando en sus aportes al país.</p>
+    </div>
+
+    <div class="caja">
+      <p>2 - Compartir el conocimiento adquirido sobre Juanes 
+      mediante productos digitales interactivos, para socializar 
+      de forma estructurada su vida artística y personal.</p>
+    </div>
+
+    <div class="caja">
+      <p>3 - Implementar métodos de recolección de datos dinámicos 
+      en un grupo de Medellinenses, con el fin de obtener datos 
+      importantes y estratégicos sobre el artista.</p>
+    </div>
+  </div>
+
+  <div class="botones">
+    <button id="anterior">Anterior</button>
+    <button id="siguiente">Siguiente</button>
+  </div>
+</section>
+  
+
+
+
+<section  id="encuesta" id="formulario">
+  <h2>Encuesta</h2>
+
+  <form id="miFormulario">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre"><br><br>
+
+    <label for="edad">Edad:</label><br>
+    <input type="number" id="edad" name="edad"><br><br>
+
+    <label for="musica">Tipo de música que escuchas:</label><br>
+    <input type="text" id="musica" name="musica"><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
